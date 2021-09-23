@@ -14,12 +14,8 @@ function App(): JSX.Element {
   return (
     <Container className="App">
       <Row>
-        <ControlPanel 
-        setCard={setActiveCard} 
-        reveal={reveal}>
-        answerRevealed = {answerRevealed}
-        </ControlPanel>
-        <CardViewer card ={activeCard}></CardViewer>
+        <ControlPanel setCard={setActiveCard} reveal={reveal} answerRevealed={answerRevealed}></ControlPanel>
+        <CardViewer card ={activeCard} answerRevealed={answerRevealed}></CardViewer>
       </Row>
     </Container>
   );
