@@ -6,5 +6,6 @@ export function CardViewer({card}: {card: Card}): JSX.Element {
     <h1>Card Viewer</h1>
     <div>Prompt: {card.prompt}</div>
     <div>Suggested Answer: {card.answer}</div>
+    <div>Hint: {card.hint}</div>
     </Col>
 }
