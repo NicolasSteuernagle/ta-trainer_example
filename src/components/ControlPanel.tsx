@@ -3,6 +3,7 @@ import { Card } from '../interfaces/card';
 import CARDS from '../assets/cards.json';
 import { getRandomElement } from '../utilities/data';
 import { BlockLike } from 'typescript';
+import { UserList } from './UserList';
 
 
 
@@ -15,8 +16,9 @@ export function ControlPanel({setCard, reveal, answerRevealed, reveal2, hintReve
 
     return <Col>
         <h1>Control Panel</h1>
-        <Button onClick = {setRandomCard}>Swap Current Card</Button>
-        <Button onClick = {() => reveal(!answerRevealed)}>Reveal Answer</Button>
-        <Button onClick = {() => reveal2(!hintRevealed)}>Reveal Hint</Button>
+        <UserList></UserList>
+        <Button onClick = {setRandomCard} className="m-4">Swap Current Card</Button>
+        <Button onClick = {() => reveal(!answerRevealed)}className="m-4">Reveal Answer</Button>
+        <Button onClick = {() => reveal2(!hintRevealed)}className="m-4">Reveal Hint</Button>
     </Col>
 }
