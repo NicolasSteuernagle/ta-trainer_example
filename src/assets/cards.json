@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "kind": "rpg",
+      "prompt": "What is the player known as in Skyrim?",
+      "answer": "Dragonborn",
+      "hint": "Relates to an enemy in the game."
+    },
+    {
+      "id": 2,
+      "kind": "rpg",
+      "prompt": "How many fallout games are there?",
+      "answer": "6 Full games",
+      "hint": "Between 5 and 10"
+    },
+    {
+      "id": 3,
+      "kind": "rpg",
+      "prompt": "How long does it take to fully complete The Witcher 3?",
+      "answer": "On average 173 hours",
+      "hint": "A little over a week"
+    },
+    {
+      "id": 4,
+      "kind": "rpg",
+      "prompt": "Which Dark Souls game is considered the hardest?",
+      "answer": "Dark Souls 2: Scholar Of The First Sin",
+      "hint": "The middle of the main series"
+    },
+    {
+      "id": 5,
+      "kind": "rpg",
+      "prompt": "Who is the Main Villain in Boderlands 2?",
+      "answer": "Handsome Jack",
+      "hint": "A common name"
+    },
+    {
+      "id": 6,
+      "kind": "shoot",
+      "prompt": "How Many Call of Duty games are there?",
+      "answer": "24 Full games",
+      "hint": "Between 20 and 30"
+    },
+    {
+      "id": 7,
+      "kind": "shoot",
+      "prompt": "What was the most recent Call of Duty title?",
+      "answer": "Call of Duty Black Ops Cold War",
+      "hint": "Russia"
+    },
+    {
+      "id": 8,
+      "kind": "shoot",
+      "prompt": "How Many Classes can you choose from in Battlefield 4?",
+      "answer": "4 Classes",
+      "hint": "The same as every other Battlefield"
+    },
+    {
+      "id": 9,
+      "kind": "shoot",
+      "prompt": "How many playable classes in Destiny?",
+      "answer": "3 Classes",
+      "hint": "1 more than the amount of games in the franchise"
+    },
+    {
+      "id": 10,
+      "kind": "shoot",
+      "prompt": "How many operators in Rainbow Six Siege?",
+      "answer": "60 Characters",
+      "hint": "Between 50 and 70"
+    },
+    {
+      "id": 11,
+      "kind": "shoot",
+      "prompt": "What is the setting of the game Bioshock?",
+      "answer": "The underwater city of Rapture",
+      "hint": "Atlantis"
+    },
+    {
+      "id": 12,
+      "kind": "shoot",
+      "prompt": "What is the flying vehicle used by the covenant in Halo?",
+      "answer": "Banshee",
+      "hint": "Screaming cryptid"
+    },
+    {
+      "id": 13,
+      "kind": "shoot",
+      "prompt": "On average, how many levels does each Left 4 Dead campaign have?",
+      "answer": "4 to 5 Levels",
+      "hint": "Two numbers"
+    },
+    {
+      "id": 14,
+      "kind": "shoot",
+      "prompt": "How many weapon types can you choose from in Destiny?",
+      "answer": "16 weapon types",
+      "hint": "Between 15 and 20"
+    },
+    {
+      "id": 15,
+      "kind": "shoot",
+      "prompt": "What was the first raid added to Destiny?",
+      "answer": "Vault of Glass",
+      "hint": "Drink out of a…"
+    },
+    {
+      "id": 16,
+      "kind": "retro",
+      "prompt": "How many songs can you learn in Majora's Mask?",
+      "answer": "13 Songs",
+      "hint": "Unlucky number"
+    },
+    {
+      "id": 17,
+      "kind": "retro",
+      "prompt": "How many worlds are in Banjo-Kazooie?",
+      "answer": "9 Worlds",
+      "hint": "Between 5 and 10"
+    },
+    {
+      "id": 18,
+      "kind": "retro",
+      "prompt": "How many ghosts chase Pac-man?",
+      "answer": "4 ghosts",
+      "hint": "Between 3 and 7"
+    },
+    {
+      "id": 19,
+      "kind": "retro",
+      "prompt": "What is the name of the first world in Sonic?",
+      "answer": "Green Hills Zone",
+      "hint": "… Hills …"
+    },
+    {
+      "id": 20,
+      "kind": "retro",
+      "prompt": "How many worlds are in Super Mario 64?",
+      "answer": "15 Worlds",
+      "hint": "A little over a Dozen"
+    },
+    {
+      "id": 21,
+      "kind": "sandbox",
+      "prompt": "How many major updates have been made to Minecraft?",
+      "answer": "17 Updates",
+      "hint": "Between 15 and 20"
+    },
+    {
+      "id": 22,
+      "kind": "sandbox",
+      "prompt": "How many bosses are in Terraria?",
+      "answer": "17 Bosses",
+      "hint": "Between 15 and 20"
+    },
+    {
+      "id": 23,
+      "kind": "sandbox",
+      "prompt": "How long has Grand Theft Auto 5 been out?",
+      "answer": "8 Years",
+      "hint": "Almost a Decade"
+    },
+    {
+      "id": 24,
+      "kind": "sandbox",
+      "prompt": "How many Just Cause games are there?",
+      "answer": "4 Games",
+      "hint": "Between 1 and 5"
+    },
+    {
+      "id": 25,
+      "kind": "sandbox",
+      "prompt": "Who do you play as in Red Dead Redemption 2?",
+      "answer": "Arthur Morgan",
+      "hint": "Name of a popular kids show"
+    }
+  ]
