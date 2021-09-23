@@ -1,7 +1,7 @@
 import { Col, Card as BootstrapCard } from 'react-bootstrap';
 import { Card } from '../interfaces/card';
 
-export function CardViewer({card, answerRevealed}: {card: Card, answerRevealed: boolean}): JSX.Element {
+export function CardViewer({card, answerRevealed, hintRevealed}: {card: Card, answerRevealed: boolean, hintRevealed: boolean}): JSX.Element {
     return <Col>
     <BootstrapCard>
         <BootstrapCard.Body>
@@ -12,9 +12,9 @@ export function CardViewer({card, answerRevealed}: {card: Card, answerRevealed: 
             {answerRevealed && <BootstrapCard.Text>
                 <strong>Suggested Answer</strong>: {card.answer}
             </BootstrapCard.Text>}
-            <BootstrapCard.Text>
+            {hintRevealed && <BootstrapCard.Text>
                 <strong>Hint</strong>: {card.hint}
-            </BootstrapCard.Text>
+            </BootstrapCard.Text>}
         </BootstrapCard.Body>
     </BootstrapCard>
     </Col>
