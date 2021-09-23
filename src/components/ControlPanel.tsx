@@ -8,6 +8,8 @@ import { BlockLike } from 'typescript';
 
 export function ControlPanel({setCard, reveal, answerRevealed, reveal2, hintRevealed}: {setCard: (c: Card)=>void, reveal: (r: boolean) => void, reveal2:(h: boolean) => void, answerRevealed: boolean, hintRevealed: boolean}): JSX.Element{
     function setRandomCard(){
+        reveal(false);
+        reveal2(false);
         setCard(getRandomElement(CARDS as Card[]))
     }
 
