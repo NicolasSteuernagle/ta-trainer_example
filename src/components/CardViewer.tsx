@@ -7,13 +7,13 @@ export function CardViewer({card}: {card: Card}): JSX.Element {
         <BootstrapCard.Body>
             <BootstrapCard.Title>Card Viewer</BootstrapCard.Title>
             <BootstrapCard.Text>
-                Prompt: {card.prompt}
+                <strong>Prompt</strong>: {card.prompt}
             </BootstrapCard.Text>
             <BootstrapCard.Text>
-                Suggested Answer: {card.answer}
+                <strong>Suggested Answer</strong>: {card.answer}
             </BootstrapCard.Text>
             <BootstrapCard.Text>
-                Hint: {card.hint}
+                <strong>Hint</strong>: {card.hint}
             </BootstrapCard.Text>
         </BootstrapCard.Body>
     </BootstrapCard>
