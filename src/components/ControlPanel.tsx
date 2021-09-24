@@ -5,14 +5,14 @@ import { getRandomElement, shuffle } from '../utilities/data';
 import { BlockLike } from 'typescript';
 import { UserList } from './UserList';
 import { useState } from 'react';
-import { Task as User} from 'editable-dnd-list';
+import { Task, Task as User} from 'editable-dnd-list';
 
 
 export function ControlPanel({setCard, reveal, answerRevealed, reveal2, hintRevealed}: {setCard: (c: Card)=>void, reveal: (r: boolean) => void, reveal2:(h: boolean) => void, answerRevealed: boolean, hintRevealed: boolean}): JSX.Element{
     const [users, setUsers] = useState<Task[]>([
-        {id: '1', text: "Nick"}
-        {id: '2', text: "Peanut"}
-        {id: '3', text: "Bandit"}
+        {id: '1', text: "Nick"},
+        {id: '2', text: "Peanut"},
+        {id: '3', text: "Bandit"},
         {id: '4', text: "Bella"}
     ]);
     
