@@ -13,13 +13,18 @@ function App(): JSX.Element {
   const [answerRevealed, reveal] = useState<boolean>(false);
   const [hintRevealed, reveal2] = useState<boolean>(false);
   const[visible, setVisible] = useState<boolean>(false);
+  const [deck, setDeck] = useState<Card[]>(CARDS);
+
+  function addCard(newCard: Card){
+    setDeck([...deck, newCard]);
+  }
 
   return (
     <Container className="App">
       <Row>
-        <ControlPanel setCard={setActiveCard} reveal={reveal} answerRevealed={answerRevealed} reveal2 = {reveal2} hintRevealed = {hintRevealed} showAddCardModal ={setVisible}></ControlPanel>
+        <ControlPanel setCard={setActiveCard} reveal={reveal} answerRevealed={answerRevealed} reveal2 = {reveal2} hintRevealed = {hintRevealed} showAddCardModal ={setVisible} deck = {deck}></ControlPanel>
         <CardViewer card ={activeCard} answerRevealed={answerRevealed} hintRevealed = {hintRevealed}></CardViewer>
-        <AddCardModal visible ={visible} setVisible = {setVisible}></AddCardModal>
+        <AddCardModal visible ={visible} setVisible = {setVisible} addCard = {addCard}></AddCardModal>
       </Row>
     </Container>
   );

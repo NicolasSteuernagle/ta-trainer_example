@@ -25,9 +25,9 @@ export function getLocalStorageUsers(): User[] {
     }
 }
 
-export function ControlPanel({setCard, reveal, answerRevealed, reveal2, hintRevealed, showAddCardModal}: {setCard: (c: Card)=>void, reveal: (r: boolean) => void, reveal2:(h: boolean) => void, answerRevealed: boolean, hintRevealed: boolean, showAddCardModal: (b: boolean)=>void}): JSX.Element{
+export function ControlPanel({setCard, reveal, answerRevealed, reveal2, hintRevealed, deck, showAddCardModal}: {setCard: (c: Card)=>void, reveal: (r: boolean) => void, reveal2:(h: boolean) => void, answerRevealed: boolean, hintRevealed: boolean, showAddCardModal: (b: boolean)=>void, deck: Card[]}): JSX.Element{
     const [users, setUsers] = useState<User[]>(getLocalStorageUsers);
-    const [deck, setDeck] = useState<Card[]>(CARDS);
+
     
     function setRandomCard(){
         reveal(false);
