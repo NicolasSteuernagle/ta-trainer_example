@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nicolassteuernagle.github.io/ta-trainer_example/",
+  "homepage": "http://NicolasSteuernagle.github.io/ta-trainer_example",
   "name": "ta-trainer_example",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
